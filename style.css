@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Advent Pro', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+/* ******************* TEXTE ******************* */
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 2em;
+}
+
+h5 {
+  text-align: center;
+  padding-left: 30px;
+  max-width: 1500px;
+  font-size: 1.5em;
+}
+h4 {
+  padding-left: 30px;
+  max-width: 1350px;
+}
+
+
+h3 {
+  padding-left: 200px;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ******************* NAVBAR ******************* */
+nav {
+  overflow: hidden;
+  background-color: #FFFAE1;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+header li {
+  float: right;
+  font-size: 1.2em;
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+#logo {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  float: left;
+}
+/* **************** HAUT DE PAGE ************* */
+#imagePrincipale {
+  padding-top: 400px;
+  background: url(dossier_photo/media/fond2.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 100xpx;
+}
+#TextePrincipal {
+  margin-top: -400px;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+}
+
+/* *************** FOND ********************** */
+#Definition {
+  background-color: #7eabff;
+  padding: 10px 0px 100px 0;
+}
+
+#Presentation {
+  background-color: #fa8f8f;
+  padding: 10px 0px 100px 0;
+}
+
+#HautDeGamme {
+  background-color: #e4d26d;
+  padding: 10px 0px 100px 0;
+}
+#MilieuDeGamme {
+  background-color: #25faa8;
+  padding: 10px 0px 100px 0;
+}
+
+#EntreDeGamme {
+  background-color: #ff9bca;
+  padding: 10px 0px 100px 0;
+}
+#texteIntro {
+  padding: 0px 20%;
+}
+ /* *************** LOGO PANIER ********************** */
+.LogoPanier img {
+  height: 30px;
+  float: right;
+  border: 3px solid #000000;
+  border-radius: 9px;
+  margin-right:10px;
+  margin-top: -110px;
+}
+.LogoPanier img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
+}
+/* **************** CONCLUSION ********************** */
+#Conclusion {
+  height: 300px;
+  background-color: #597afd;
+  padding: 1px 2%;
+}
+#Conclusion h2 {
+  padding-top: 60px;
+}
+
+
+/* ******************* FOOTER ******************** */
+footer {
+  background-color: #524A3A;
+  color: #FFFAE1;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+#copyright {
+  width: 50%;
+  text-align: left;
+  color: #FFFAE1;
+}
+#icons {
+  width: 50%;
+  text-align: right;
+}
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.3em;
+  color: #FFFAE1;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}
