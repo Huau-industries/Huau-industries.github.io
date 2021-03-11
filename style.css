@@ -31,7 +31,7 @@ h5 {
   font-size: 1.5em;
 }
 h4 {
-  padding-left: 30px;
+  margin-left: 30px;
   max-width: 1350px;
 }
 
@@ -64,14 +64,14 @@ header li a {
   padding: 18px 16px;
 }
 #logo {
-  font-family: 'Dancing Script', cursive;
+  font-family: cursive;
   font-weight: bold;
   float: left;
 }
 /* **************** HAUT DE PAGE ************* */
 #imagePrincipale {
   padding-top: 400px;
-  background: url(dossier_photo/media/fond2.jpg) no-repeat fixed 50% 50%;
+  background-color: #524A3A;
   background-size: cover;
   height: 100xpx;
 }
@@ -79,7 +79,7 @@ header li a {
   margin-top: -400px;
 }
 h1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Sedgwick Ave', cursive;
   text-align: center;
   color: antiquewhite;
   font-size: 6em;
@@ -89,26 +89,26 @@ h1 {
 
 /* *************** FOND ********************** */
 #Definition {
-  background-color: #7eabff;
+  background-color: #b7d0ff;
   padding: 10px 0px 100px 0;
 }
 
 #Presentation {
-  background-color: #fa8f8f;
+  background-color: #c7b5b5;
   padding: 10px 0px 100px 0;
 }
 
 #HautDeGamme {
-  background-color: #e4d26d;
+  background-color: #e7e7e7;
   padding: 10px 0px 100px 0;
 }
 #MilieuDeGamme {
-  background-color: #25faa8;
+  background-color: #e7e7e7;
   padding: 10px 0px 100px 0;
 }
 
 #EntreDeGamme {
-  background-color: #ff9bca;
+  background-color: #e7e7e7;
   padding: 10px 0px 100px 0;
 }
 #texteIntro {
@@ -131,11 +131,16 @@ h1 {
 /* **************** CONCLUSION ********************** */
 #Conclusion {
   height: 300px;
-  background-color: #597afd;
+  background-color: #c7b5b5;
   padding: 1px 2%;
 }
-#Conclusion h2 {
-  padding-top: 60px;
+h6 {
+  
+  text-align: center;
+  padding-left: 30px;
+  max-width: 95%;
+  font-size: 1.25em;
+  
 }
 
 
