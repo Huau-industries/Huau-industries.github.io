@@ -40,6 +40,24 @@ h3 {
   padding-left: 200px;
 }
 
+h6 {
+  
+  text-align: center;
+  padding-left: 30px;
+  max-width: 95%;
+  font-size: 1.25em;  
+}
+
+h1 {
+  font-family: 'Sedgwick Ave', cursive;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+}
+
+
 
 a {
   text-decoration: none;
@@ -78,14 +96,7 @@ header li a {
 #TextePrincipal {
   margin-top: -400px;
 }
-h1 {
-  font-family: 'Sedgwick Ave', cursive;
-  text-align: center;
-  color: antiquewhite;
-  font-size: 6em;
-  margin-top: 100px;
-  text-shadow: 1px 3px 2px black;
-}
+
 
 /* *************** FOND ********************** */
 #Definition {
@@ -111,9 +122,6 @@ h1 {
   background-color: #e7e7e7;
   padding: 10px 0px 100px 0;
 }
-#texteIntro {
-  padding: 0px 20%;
-}
  /* *************** LOGO PANIER ********************** */
 .LogoPanier img {
   height: 30px;
@@ -134,15 +142,6 @@ h1 {
   background-color: #c7b5b5;
   padding: 1px 2%;
 }
-h6 {
-  
-  text-align: center;
-  padding-left: 30px;
-  max-width: 95%;
-  font-size: 1.25em;
-  
-}
-
 
 /* ******************* FOOTER ******************** */
 footer {
