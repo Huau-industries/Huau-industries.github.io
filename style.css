@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lilita+One&family=Paytone+One&family=Yusei+Magic&display=swap');
+
 
 html {
   scroll-behavior: smooth;
@@ -15,46 +16,63 @@ ul {
 }
 li {
   list-style-type: none;
+  font-family: 'Yusei Magic', sans-serif;
 }
 /* ******************* TEXTE ******************* */
 h2 {
   text-transform: uppercase;
   text-align: center;
-  padding-top: 30px;
-  font-size: 2em;
+  padding-top: 0%;
+  font-size: 300%;
+  font-family: 'Hammersmith One', sans-serif;
+  color:black;
 }
 
 h5 {
   text-align: center;
-  padding-left: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
   max-width: 95%;
-  font-size: 1.5em;
+  font-size: 150%;
+  font-family: 'Yusei Magic', sans-serif;
+  color:black;
 }
 h4 {
   margin-left: 30px;
-  max-width: 1350px;
+  max-width: 85%;
+  font-size: 125%;
+  font-family: 'Yusei Magic', sans-serif;
+  color:black;
 }
 
 
 h3 {
-  padding-left: 200px;
+  padding-left: 10%;
+  font-size: 150%;
+  padding-top: 3.5%;
+  font-family: 'Yusei Magic', sans-serif;
+  color:black;
 }
 
 h6 {
   
   text-align: center;
-  padding-left: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
   max-width: 95%;
-  font-size: 1.25em;  
+  font-size: 180%; 
+  font-family: 'Yusei Magic', sans-serif;
+  color:black;
 }
 
 h1 {
-  font-family: 'Sedgwick Ave', cursive;
+  
+  font-family: 'Paytone One', sans-serif;
   text-align: center;
-  color: antiquewhite;
   font-size: 6em;
   margin-top: 100px;
   text-shadow: 1px 3px 2px black;
+  color:white;
 }
 
 
@@ -70,6 +88,9 @@ nav {
   position: fixed;
   width: 100%;
   opacity: 0.9;
+  box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.76);
+  -webkit-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.76);
+ -moz-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.76);
 }
 header li {
   float: right;
@@ -82,14 +103,14 @@ header li a {
   padding: 18px 16px;
 }
 #logo {
-  font-family: cursive;
+  font-family: 'Hammersmith One', sans-serif;
   font-weight: bold;
   float: left;
 }
 /* **************** HAUT DE PAGE ************* */
 #imagePrincipale {
   padding-top: 400px;
-  background-color: #524A3A;
+  background-color:#763626;
   background-size: cover;
   height: 100xpx;
 }
@@ -106,21 +127,26 @@ header li a {
 
 #Presentation {
   background-color: #c7b5b5;
-  padding: 10px 0px 100px 0;
+  padding: 10px 0px 10px 0;
 }
 
 #HautDeGamme {
-  background-color: #e7e7e7;
+  background-color: #90AFC5;
   padding: 10px 0px 100px 0;
 }
 #MilieuDeGamme {
-  background-color: #e7e7e7;
+  background-color: #b7d0ff;
   padding: 10px 0px 100px 0;
 }
 
 #EntreDeGamme {
-  background-color: #e7e7e7;
+  background-color: #90AFC5;
   padding: 10px 0px 100px 0;
+}
+
+#BoxTitre {
+  background-color: #90AFC5;
+  margin-top: 10%;
 }
  /* *************** LOGO PANIER ********************** */
 .LogoPanier img {
@@ -129,23 +155,25 @@ header li a {
   border: 3px solid #000000;
   border-radius: 9px;
   margin-right:10px;
-  margin-top: -110px;
+  margin-top: 0.75%;
 }
 .LogoPanier img:hover {
   opacity: 0.5;
   transform: scale(1.05);
   transition: 0.1s ease-in-out;
 }
+
+
 /* **************** CONCLUSION ********************** */
 #Conclusion {
-  height: 300px;
+  height: 200%px;
   background-color: #c7b5b5;
   padding: 1px 2%;
 }
 
 /* ******************* FOOTER ******************** */
 footer {
-  background-color: #524A3A;
+  background-color: #763626;
   color: #FFFAE1;
   padding: 20px 0 10px 0;
   text-align: center;
