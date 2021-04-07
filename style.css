@@ -29,10 +29,8 @@ h2 {
 }
 
 h5 {
+  text-align: justify;
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  max-width: 95%;
   font-size: 150%;
   font-family: 'Yusei Magic', sans-serif;
   color:black;
