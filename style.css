@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lilita+One&family=Paytone+One&family=Yusei+Magic&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lilita+One&family=Paytone+One&family=Yusei+Magic&display=swap");
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Advent Pro', sans-serif;
+  font-family: "Advent Pro", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -16,7 +15,7 @@ ul {
 }
 li {
   list-style-type: none;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: "Yusei Magic", sans-serif;
 }
 /* ******************* TEXTE ******************* */
 h2 {
@@ -24,56 +23,55 @@ h2 {
   text-align: center;
   padding-top: 0%;
   font-size: 300%;
-  font-family: 'Hammersmith One', sans-serif;
-  color:black;
+  font-family: "Hammersmith One", sans-serif;
+  color: black;
+}
+
+.container {
+  overflow-wrap: break-word;
 }
 
 h5 {
   text-align: justify;
   text-align: center;
   font-size: 150%;
-  font-family: 'Yusei Magic', sans-serif;
-  color:black;
+  font-family: "Yusei Magic", sans-serif;
+  color: black;
 }
 h4 {
   margin-left: 3%;
   max-width: 85%;
   font-size: 125%;
-  font-family: 'Yusei Magic', sans-serif;
-  color:black;
+  font-family: "Yusei Magic", sans-serif;
+  color: black;
 }
-
 
 h3 {
   padding-left: 10%;
   font-size: 150%;
   padding-top: 3.5%;
-  font-family: 'Yusei Magic', sans-serif;
-  color:black;
+  font-family: "Yusei Magic", sans-serif;
+  color: black;
 }
 
 h6 {
-  
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
   max-width: 95%;
-  font-size: 180%; 
-  font-family: 'Yusei Magic', sans-serif;
-  color:black;
+  font-size: 180%;
+  font-family: "Yusei Magic", sans-serif;
+  color: black;
 }
 
 h1 {
-  
-  font-family: 'Paytone One', sans-serif;
+  font-family: "Paytone One", sans-serif;
   text-align: center;
   font-size: 6em;
   margin-top: 100px;
   text-shadow: 1px 3px 2px black;
-  color:white;
+  color: white;
 }
-
-
 
 a {
   text-decoration: none;
@@ -82,13 +80,13 @@ a {
 /* ******************* NAVBAR ******************* */
 nav {
   overflow: hidden;
-  background-color: #FFFAE1;
+  background-color: #fffae1;
   position: fixed;
   width: 100%;
   opacity: 0.9;
-  box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.76);
-  -webkit-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.76);
- -moz-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.76);
+  box-shadow: 0px 3px 7px -1px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: 0px 3px 7px -1px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 0px 3px 7px -1px rgba(0, 0, 0, 0.76);
 }
 header li {
   float: right;
@@ -101,21 +99,20 @@ header li a {
   padding: 18px 16px;
 }
 #logo {
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: "Hammersmith One", sans-serif;
   font-weight: bold;
   float: left;
 }
 /* **************** HAUT DE PAGE ************* */
 #imagePrincipale {
   padding-top: 400px;
-  background-color:#763626;
+  background-color: #763626;
   background-size: cover;
   height: 100xpx;
 }
 #TextePrincipal {
   margin-top: -400px;
 }
-
 
 /* *************** FOND ********************** */
 #Definition {
@@ -129,7 +126,7 @@ header li a {
 }
 
 #HautDeGamme {
-  background-color: #90AFC5;
+  background-color: #90afc5;
   padding: 100px 0px 100px 0;
 }
 #MilieuDeGamme {
@@ -138,21 +135,21 @@ header li a {
 }
 
 #EntreDeGamme {
-  background-color: #90AFC5;
+  background-color: #90afc5;
   padding: 100px 0px 100px 0;
 }
 
 #BoxTitre {
-  background-color: #90AFC5;
+  background-color: #90afc5;
   margin-top: 10%;
 }
- /* *************** LOGO PANIER ********************** */
+/* *************** LOGO PANIER ********************** */
 .LogoPanier img {
   height: 30px;
   float: right;
   border: 3px solid #000000;
   border-radius: 9px;
-  margin-right:10px;
+  margin-right: 10px;
   margin-top: 0.75%;
 }
 .LogoPanier img:hover {
@@ -160,7 +157,6 @@ header li a {
   transform: scale(1.05);
   transition: 0.1s ease-in-out;
 }
-
 
 /* **************** CONCLUSION ********************** */
 #Conclusion {
@@ -172,7 +168,7 @@ header li a {
 /* ******************* FOOTER ******************** */
 footer {
   background-color: #763626;
-  color: #FFFAE1;
+  color: #fffae1;
   padding: 20px 0 10px 0;
   text-align: center;
 }
@@ -185,7 +181,7 @@ footer {
 #copyright {
   width: 50%;
   text-align: left;
-  color: #FFFAE1;
+  color: #fffae1;
 }
 #icons {
   width: 50%;
@@ -195,7 +191,7 @@ footer {
   display: inline-block;
   padding: 0 15px;
   font-size: 1.3em;
-  color: #FFFAE1;
+  color: #fffae1;
 }
 #icons a:hover {
   transform: scale(1.5);
